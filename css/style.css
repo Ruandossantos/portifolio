@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --font-geral:'Poppins', sans-serif;
+}
+
+/*MEU CABEÇALHO*/
+header{
+    height: 100vh;
+    width: 100%;;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*MEU MENU (ONDE CONTEM OS LI'S )*/
+header .header-nav-bar{
+    width: 60%;
+    height: 6vh;   
+    padding-top: 20px;
+    position: relative;
+}
+header .header-nav-bar ul li:hover{
+    cursor: pointer;
+    color: rgb(155, 155, 155);
+}
+header .header-nav-bar ul li:hover::before{
+    border-bottom: 20px;
+    position: absolute;
+    content: "";
+    background-color: red;
+    height: 2px;
+    width:80px;
+    top: 68%;
+    animation: barra 0.3s 1 ease-in-out ;
+}
+@keyframes barra {
+    0%{
+        width:0px;
+    }
+    100%{
+
+    }
+}
+.header-nav-bar .lista-navegacao {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+/*ESTILIZAÇÃO DA MINHA APRESENTAÇÃO (AINDA NO HEADER, ABAIXO NO MENU)*/
+
+
+.presentation{
+    background-image: linear-gradient(0deg, #000000da,#000000e5), url(../img/outras/backgraund/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation
+.inter-presentation{
+    height: 80%;
+    width: 80%;
+}
+
+
+.presentation
+.inter-presentation h1{
+    font-weight: 600;
+    text-align: center;
+    color: rgb(209, 5, 5);
+    font-family: var(--font-geral);
+}
+
+.presentation
+.inter-presentation h2{
+    text-align: center;
+    color: white;
+    font-family: var(--font-geral);
+    margin-top: 20px;
+    font-size: 6rem;
+    line-height: 65px;
+}
+
+.estudo-btn{
+
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+}
+.estudo-btn
+.especializacao h1{
+    font-weight: 400;
+}
+
+.estudo-btn .logos{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.estudo-btn .bote-maissbore{
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estudo-btn
+.bote-maissbore button{
+    height: 60%;
+    width: 60%;
+    font-size: 2rem;
+    font-family: var(--font-geral);
+    font-weight: 400;
+}
