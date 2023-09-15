@@ -7,6 +7,9 @@
     --font-geral:'Poppins', sans-serif;
     --color-h1-h1: #33ff00;
 }
+body{
+    background-color: black;
+}
 
 /*MEU CABEÇALHO*/
 header{
@@ -18,8 +21,17 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    animation: header-animar 1.4s 1 ease-in-out;
 }
+@keyframes header-animar{
+    0%{
+         opacity: 0;   
+    }
 
+    100%{
+
+    }
+}
 /*MEU MENU (ONDE CONTEM OS LI'S )*/
 header .header-nav-bar{
     background-color: #000000;
@@ -29,6 +41,12 @@ header .header-nav-bar{
     position: relative;
     position: fixed;
     top: 0;
+    animation: anima-menu 1s 1 ease-in-out;
+}
+@keyframes anima-menu {
+    0%{
+        transform: translateY(-90px);
+    }
 }
 header .header-nav-bar ul li:hover{
     cursor: pointer;
