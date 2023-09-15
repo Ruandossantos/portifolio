@@ -74,7 +74,7 @@ header .header-nav-bar ul li:hover::before{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .presentation
@@ -230,4 +230,227 @@ margin-right: 30px;
 .texto-foto-sobremim span{
     font-size:1.6rem;
     font-family: var(--font-geral);
+}
+
+
+/*SECÃO HABILIDADES*/
+
+.habilidades{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inter-habilidades{
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #000000;
+    color: white;
+    margin-top: 60px;
+    background-image: linear-gradient(45deg, #000000a6, #0000008f), url(../img/outras/backgraund/m-clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.meu-historico{
+    height: 80vh;
+    width: 20%;
+}
+.porcentagem-aprendizados{
+    height: 80vh;
+    width: 40%;
+}
+
+.meu-historico ul{
+    list-style: none;
+}
+
+.meu-historico ul li{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: var(--font-geral);
+    padding-top: 20px;
+}
+
+.meu-historico ul span{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: var(--font-geral);
+}
+
+
+
+/*ESTILIZAÇÃO DAS MNA*/
+
+.porcentagem-aprendizados ul{
+    list-style: none;
+}
+.porcentagem-aprendizados ul li{
+    padding-top: 20px;
+}
+
+
+
+/*ESTILIZAÇÃO HTML*/
+.porcentagem-aprendizados ul .porc-html h1{
+    font-family: var(--font-geral);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.porcentagem-aprendizados ul .porc-html .html{
+    height: 5px;
+    width: 90%;
+    background-color: black;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.porcentagem-aprendizados ul .porc-html .html::before{
+    content: "85%";
+    padding: 4px;
+    color: #ffffff;
+    height: 25px;
+    width: 21px;
+    background-color: black;
+    position: absolute;
+    top: -35px;
+    left: 85%;
+    font-family: var(--font-geral);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.porcentagem-aprendizados ul .porc-html .html::after{
+    height: 5px;
+    width: 85%;
+    background-color: var(--color-h1-h1);
+    position: absolute;
+    top: 0;
+    content: "";
+}
+
+
+/*ESTILIZAÇÃO CSS*/
+.porcentagem-aprendizados ul .porc-css h1{
+    font-family: var(--font-geral);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.porcentagem-aprendizados ul .porc-css .css{
+    height: 5px;
+    width: 90%;
+    background-color: black;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.porcentagem-aprendizados ul .porc-css .css::before{
+    content: "70%";
+    padding: 4px;
+    color: #ffffff;
+    height: 25px;
+    width: 21px;
+    background-color: black;
+    position: absolute;
+    top: -35px;
+    left: 70%;
+    font-family: var(--font-geral);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.porcentagem-aprendizados ul .porc-css .css::after{
+    height: 5px;
+    width: 70%;
+    background-color: var(--color-h1-h1);
+    position: absolute;
+    top: 0;
+    content: "";
+}
+
+
+
+/*ESTILIZAÇÃO JAVASCRITP*/
+.porcentagem-aprendizados ul .porc-java h1{
+    font-family: var(--font-geral);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.porcentagem-aprendizados ul .porc-java .java{
+    height: 5px;
+    width: 90%;
+    background-color: black;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.porcentagem-aprendizados ul .porc-java .java::before{
+    content: "2%";
+    padding: 4px;
+    color: #ffffff;
+    height: 25px;
+    width: 21px;
+    background-color: black;
+    position: absolute;
+    top: 7px;
+    left: 2%;
+    font-family: var(--font-geral);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.porcentagem-aprendizados ul .porc-java .java::after{
+    height: 5px;
+    width: 2%;
+    background-color: var(--color-h1-h1);
+    position: absolute;
+    top: 0;
+    content: "";
+}
+
+/*ESTILIZAÇÃO BOOSTRAP*/
+.porcentagem-aprendizados ul .porc-boos h1{
+    font-family: var(--font-geral);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.porcentagem-aprendizados ul .porc-boos .boos{
+    height: 5px;
+    width: 90%;
+    background-color: black;
+    position: relative;
+}
+
+.porcentagem-aprendizados ul .porc-boos .boos::before{
+    content: "12%";
+    padding: 4px;
+    color: #ffffff;
+    height: 25px;
+    width: 21px;
+    background-color: black;
+    position: absolute;
+    top: 7px;
+    left: 12%;
+    font-family: var(--font-geral);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.porcentagem-aprendizados ul .porc-boos .boos::after{
+    height: 5px;
+    width: 12%;
+    background-color: var(--color-h1-h1);
+    position: absolute;
+    top: 0;
+    content: "";
 }
