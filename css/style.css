@@ -103,12 +103,21 @@ header .header-nav-bar ul li:hover::before{
 
 
 .presentation
-.inter-presentation h1{
+.inter-presentation .ola-seja{
     font-weight: 400;
     text-align: center;
     color: var(--color-h1-h1);
     font-family: var(--font-geral);
     padding-top: 40px;
+    animation: h1-anima 1s 1 ease-in-out;
+}
+@keyframes h1-anima {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+    }
 }
 
 .presentation
@@ -128,8 +137,11 @@ header .header-nav-bar ul li:hover::before{
     margin: 0 auto;
 }
 .estudo-btn
-.especializacao h1{
+.especializacao .txt-deve{
     font-weight: 400;
+    text-align: center;
+    color: var(--color-h1-h1);
+    padding-top: 20px;
 }
 
 
