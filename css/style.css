@@ -34,6 +34,7 @@ header{
     align-items: center;
     flex-direction: column;
     animation: header-animar 1.4s 1 ease-in-out;
+    display: none;
 }
 @keyframes header-animar{
     0%{
@@ -104,7 +105,7 @@ header .header-nav-bar ul li:hover::before{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    display: none;
 }
 
 .presentation
@@ -217,6 +218,7 @@ header .header-nav-bar ul li:hover::before{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    display: none;
 }
 
 .container-sobremim{
@@ -280,10 +282,11 @@ margin-right: 30px;
 .habilidades{
     height: 100vh;
     width: 100%;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .inter-habilidades{
@@ -296,7 +299,7 @@ margin-right: 30px;
     background-color: #000000;
     color: white;
     margin-top: 60px;
-    background-image: linear-gradient(45deg, #000000a6, #0000008f), url(../img/outras/backgraund/m-clouds.jpg);
+    background-image: linear-gradient(45deg, #000000d8, #000000d3), url(../img/outras/backgraund/m-clouds.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -379,7 +382,6 @@ margin-right: 30px;
     top: 0;
     content: "";
 }
-
 
 /*ESTILIZAÇÃO CSS*/
 .porcentagem-aprendizados ul .porc-css h1{
@@ -486,7 +488,6 @@ margin-right: 30px;
     font-family: var(--font-geral);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    
 }
 
 .porcentagem-aprendizados ul .porc-boos .boos::after{
@@ -499,30 +500,115 @@ margin-right: 30px;
 }
 
 .portifolio{
-    background-color: rgb(255, 200, 47);
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(45deg, #ffffffef ,#353434de), url(../img/outras/backgraund/portifolio-walpp.jpg);
 }
 
 .projetos{
-    background-color: rgb(71, 255, 47);
-    height: 90vh;
+    height: 90%;
     width: 90%;
+    padding-top: 40px;
+}
+
+ .texto-porti{
+    height: 5%;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.texto-porti h1{
+    font-family: var(--font-geral);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+ .meu-projetos{
+    width: 97%;
+    height: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    padding:  10px;
+ }
+
+.loadingpagemain, .paginaatinfowifigrates, .login ,.paginaatinfocam{
+    box-shadow: 0px 0px 23px #13cec436;
+}
+
+
+
+.loadingpagemain{
+
+}
+.login{
+   background-image: url(../img/fotos-projetos/tela-login.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+.paginaatinfocam{
+    background-image: url(../img/fotos-projetos/loadingpage-fullcam.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+}
+
+.paginaatinfowifigrates{
+    background-image: url(../img/outras/backgraund/loadingpage-wifigrates.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+}
+.loadingpagemain{
+    background-image: url(../img/outras/backgraund/loadingpage-evento.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
     position: relative;
+    transition: 3s;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-.projetoloadingpage{
-    background-color: red;
-    height: 50%;
-    width: 50%;
-    content: "";
-    overflow:scroll;
+.artigo-loamain{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+}
+
+.artigo-loamain h1{
+    font-family: var(--font-geral);
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
-.projetoloadingpage .img{
-    width: 100%;
-    height: 100%;
+.artigo-loamain span{
+    font-family: var(--font-geral);
+    margin-bottom: 40px;
+}
+
+.artigo-loamain a  button {
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #1ffff4;
+    overflow: none;
+    border: none;
+    font-size: 1.2rem;
+    font-family: var(--font-geral);
+    
 }
