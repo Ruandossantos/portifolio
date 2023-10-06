@@ -577,9 +577,17 @@ margin-right: 30px;
     background-size:cover;
     background-position-x: center;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
+.loadingpagemain .one{
+    background-color: red;
+    height: 30px;
+    width: 170px;
+    margin-bottom: 20px;
+}
+.loadingpagemain .thow{
+    background-color: red;
+    height: 30px;
+    width: 170px;
+}
