@@ -5,7 +5,7 @@
 
 :root{
     --font-geral:'Poppins', sans-serif;
-    --color-h1-h1: #1ffff4;
+    --color-h1-h1: #11a59e;
 }
 body{
     background-color: black;
@@ -34,7 +34,7 @@ header{
     align-items: center;
     flex-direction: column;
     animation: header-animar 1.4s 1 ease-in-out;
-    display: none;
+    
 }
 @keyframes header-animar{
     0%{
@@ -52,7 +52,9 @@ header .header-nav-bar{
     height: 5vh;   
     padding-top: 10px;
     position: relative;
+    position:relative;
     position: fixed;
+    z-index: 1;
     top: 0;
     animation: anima-menu 1s 1 ease-in-out;
 }
@@ -63,7 +65,7 @@ header .header-nav-bar{
 }
 header .header-nav-bar ul li:hover{
     cursor: pointer;
-    color: #9b9b9b;
+    color: var(--color-h1-h1);
 }
 header .header-nav-bar ul li:hover::before{
     border-bottom: 20px;
@@ -71,9 +73,9 @@ header .header-nav-bar ul li:hover::before{
     content: "";
     background-color: var(--color-h1-h1);
     height: 2px;
-    width:80px;
+    width:70px;
     top: 68%;
-    animation: barra 0.3s 1 ease-in-out ;
+    animation: barra 0.3s 1 ease-out ;
 }
 @keyframes barra {
     0%{
@@ -88,7 +90,7 @@ header .header-nav-bar ul li:hover::before{
     justify-content: space-around;
     list-style: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 /*ESTILIZAÇÃO DA MINHA APRESENTAÇÃO (AINDA NO HEADER, ABAIXO NO MENU)*/
@@ -105,7 +107,7 @@ header .header-nav-bar ul li:hover::before{
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
+    
 }
 
 .presentation
@@ -122,6 +124,8 @@ header .header-nav-bar ul li:hover::before{
     color: var(--color-h1-h1);
     font-family: var(--font-geral);
     padding-top: 40px;
+    font-size: 1rem;
+
     animation: h1-anima 1s 1 ease-in-out;
 }
 @keyframes h1-anima {
@@ -140,8 +144,9 @@ header .header-nav-bar ul li:hover::before{
     color: white;
     font-family: var(--font-geral);
     margin-top: 20px;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 50px;
+    text-transform: uppercase;
 }
 
 .estudo-btn{
@@ -155,11 +160,13 @@ header .header-nav-bar ul li:hover::before{
     text-align: center;
     color: var(--color-h1-h1);
     padding-top: 20px;
+    font-size: 1rem;
+    font-family: var(--font-geral);
 }
 
 
 .logos-redes{
-    width: 70%;
+    width: 60%;
     height: 20%;
     margin: 0 auto;
     display: flex;
@@ -177,8 +184,8 @@ header .header-nav-bar ul li:hover::before{
 }
 
 .estudo-btn .bote-maissbore{
-    height: 80px;
-    width: 80%;
+    height: 70px;
+    width: 70%;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
@@ -189,10 +196,11 @@ header .header-nav-bar ul li:hover::before{
 .bote-maissbore button{
     height: 60%;
     width: 60%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--font-geral);
     font-weight: 400;
     background-color: transparent;
+    text-transform: uppercase;
     border: 2px solid #252525;
     color: white;
 }
@@ -214,11 +222,11 @@ header .header-nav-bar ul li:hover::before{
     justify-content: center;
     align-items: center;
     background-color: rgb(235, 235, 235);
-    background-image: linear-gradient(45deg, #e9e9e9de, #e9e9e9dc), url(../img/outras/m-liberty.jpg);
+    background-image: linear-gradient(45deg, #e9e9e9f5, #e9e9e9f5), url(../img/outras/m-liberty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: none;
+    
 }
 
 .container-sobremim{
@@ -232,8 +240,8 @@ header .header-nav-bar ul li:hover::before{
 .container-sobremim #sobre{
     text-align: center;
     color: black;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 700;
     font-family: var(--font-geral);
     color:rgb(228, 30, 129);
 }
@@ -272,7 +280,7 @@ margin-right: 30px;
     width: 70%;
 }
 .texto-foto-sobremim span{
-    font-size:1.6rem;
+    font-size:1.3rem;
     font-family: var(--font-geral);
 }
 
@@ -286,8 +294,11 @@ margin-right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
+    
 }
+
+
+/*ESTILIZAÇÃO DE HABILIDADES*/
 
 .inter-habilidades{
     height: 90vh;
@@ -319,14 +330,14 @@ margin-right: 30px;
 }
 
 .meu-historico ul li{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 600;
     font-family: var(--font-geral);
     padding-top: 20px;
 }
 
 .meu-historico ul span{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     font-family: var(--font-geral);
 }
@@ -347,7 +358,7 @@ margin-right: 30px;
 /*ESTILIZAÇÃO HTML*/
 .porcentagem-aprendizados ul .porc-html h1{
     font-family: var(--font-geral);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -363,9 +374,8 @@ margin-right: 30px;
     content: "85%";
     padding: 4px;
     color: #ffffff;
-    height: 25px;
-    width: 21px;
-    background-color: black;
+    height: 20px;
+    width: 17px;
     position: absolute;
     top: -35px;
     left: 85%;
@@ -386,7 +396,7 @@ margin-right: 30px;
 /*ESTILIZAÇÃO CSS*/
 .porcentagem-aprendizados ul .porc-css h1{
     font-family: var(--font-geral);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -402,9 +412,8 @@ margin-right: 30px;
     content: "70%";
     padding: 4px;
     color: #ffffff;
-    height: 25px;
-    width: 21px;
-    background-color: black;
+    height: 20px;
+    width: 17px;
     position: absolute;
     top: -35px;
     left: 70%;
@@ -426,7 +435,7 @@ margin-right: 30px;
 /*ESTILIZAÇÃO JAVASCRITP*/
 .porcentagem-aprendizados ul .porc-java h1{
     font-family: var(--font-geral);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -444,7 +453,6 @@ margin-right: 30px;
     color: #ffffff;
     height: 25px;
     width: 21px;
-    background-color: black;
     position: absolute;
     top: 7px;
     left: 2%;
@@ -464,7 +472,7 @@ margin-right: 30px;
 /*ESTILIZAÇÃO BOOSTRAP*/
 .porcentagem-aprendizados ul .porc-boos h1{
     font-family: var(--font-geral);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -481,7 +489,6 @@ margin-right: 30px;
     color: #ffffff;
     height: 25px;
     width: 21px;
-    background-color: black;
     position: absolute;
     top: 7px;
     left: 12%;
@@ -505,7 +512,7 @@ margin-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(45deg, #ffffffef ,#353434de), url(../img/outras/backgraund/portifolio-walpp.jpg);
+    background-image: linear-gradient(45deg, #000000ef ,#353434de), url(../img/outras/backgraund/portifolio-walpp.jpg);
 }
 
 .projetos{
@@ -525,7 +532,7 @@ margin-right: 30px;
 }
 .texto-porti h1{
     font-family: var(--font-geral);
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: white;
 }
@@ -534,20 +541,16 @@ margin-right: 30px;
     height: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 600px 600px;
     gap: 5px;
-    padding:  10px;
  }
 
 .loadingpagemain, .paginaatinfowifigrates, .login ,.paginaatinfocam{
-    box-shadow: 0px 0px 23px #13cec436;
+    box-shadow: 0px 0px 23px #13cec510;
 }
 
 
 
-.loadingpagemain{
-
-}
 .login{
    background-image: url(../img/fotos-projetos/tela-login.png);
    background-repeat: no-repeat;
@@ -574,41 +577,9 @@ margin-right: 30px;
     background-size:cover;
     background-position-x: center;
     position: relative;
-    transition: 3s;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
 }
 
-.artigo-loamain{
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 90%;
-    height: 80%;
-}
 
-.artigo-loamain h1{
-    font-family: var(--font-geral);
-    padding-bottom: 20px;
-    padding-top: 20px;
-
-}
-.artigo-loamain span{
-    font-family: var(--font-geral);
-    margin-bottom: 40px;
-}
-
-.artigo-loamain a  button {
-    width: 200px;
-    height: 40px;
-    cursor: pointer;
-    background-color: #1ffff4;
-    overflow: none;
-    border: none;
-    font-size: 1.2rem;
-    font-family: var(--font-geral);
-    
-}
