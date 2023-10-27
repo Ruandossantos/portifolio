@@ -243,7 +243,7 @@ header .header-nav-bar ul li:hover::before{
     font-size: 1.2rem;
     font-weight: 700;
     font-family: var(--font-geral);
-    color:rgb(228, 30, 129);
+    color:var(--color-h1-h1);
 }
 .container-sobremim h1{
     text-align: center;
@@ -507,6 +507,7 @@ margin-right: 30px;
 }
 
 .portifolio{
+    margin-top: 40px;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -519,6 +520,10 @@ margin-right: 30px;
     height: 90%;
     width: 90%;
     padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
  .texto-porti{
@@ -540,54 +545,113 @@ margin-right: 30px;
     width: 97%;
     height: 90%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 600px 600px;
     gap: 5px;
  }
 
-.loadingpagemain, .paginaatinfowifigrates, .login ,.paginaatinfocam{
-    box-shadow: 0px 0px 23px #13cec510;
+.container-porti{
+    margin-top: 20px;
+    width: 100%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-.login{
-   background-image: url(../img/fotos-projetos/tela-login.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
+.projetos-coluna1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+    gap: 2px;
 }
+    .loadingpage{
+        height: 100%;
+        width: 50%;
+    }
+        .loadingpage img{
+            width: 100%;
+            height: 100%;
+        
+        }
+    
 
-.paginaatinfocam{
-    background-image: url(../img/fotos-projetos/loadingpage-fullcam.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position-x: center;
+    .wifigratesatinfo{
+        height: 100%;
+        width: 50%;
+    }
+        .wifigratesatinfo img{
+            width: 100%;
+            height: 100%;
+        }
+
+
+        
+.projetos-coluna2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
 }
-
-.paginaatinfowifigrates{
-    background-image: url(../img/outras/backgraund/loadingpage-wifigrates.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position-x: center;
-}
-.loadingpagemain{
-    background-image: url(../img/outras/backgraund/loadingpage-evento.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position-x: center;
-    position: relative;
-}
+    .tela-login{
+        height: 100%;
+        width: 50%;
+    }
+        .tela-login img{
+            width: 100%;
+            height: 100%;
+        }
 
 
-.loadingpagemain .one{
+    .full-cam{
+        height: 100%;
+        width: 50%;
+    }
+        .full-cam img{
+            width: 100%;
+            height: 100%;
+        }
+
+/*ESTILIZAÇÃO DO FOOTER/ ONDE ME ENCONTARAR E CONTATOS*/
+
+
+.rodape{
+    margin-top: 20px;
+    width: 100%;
+    height: 90vh;
     background-color: red;
-    height: 30px;
-    width: 170px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
-.loadingpagemain .thow{
-    background-color: red;
-    height: 30px;
-    width: 170px;
+
+.ireifazer{
+    width: 90%;
+    height:300px;
+    background-color: rgb(0, 38, 255);
+    text-align: center;
+
+}.ireifazer h3{
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    font-family: var(--font-geral);
+    font-weight: 700;
+    color: var(--color-h1-h1);
+}
+.ireifazer span{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: var(--font-geral);
+    font-weight: 700;
+    color: var(--color-h1-h1);
+}
+.adress{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(0, 38, 255);
 }
