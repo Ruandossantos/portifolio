@@ -621,7 +621,7 @@ margin-right: 30px;
     margin-top: 20px;
     width: 100%;
     height: 90vh;
-    background-color: red;
+    background-image: linear-gradient(40deg, #000000ec, #000000fb), url(../img/outras/backgraund/bg.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -631,27 +631,105 @@ margin-right: 30px;
 
 .ireifazer{
     width: 90%;
-    height:300px;
-    background-color: rgb(0, 38, 255);
+    height:90%;
     text-align: center;
-
-}.ireifazer h3{
-    text-transform: uppercase;
-    font-size: 1rem;
-    text-align: center;
-    font-family: var(--font-geral);
-    font-weight: 700;
-    color: var(--color-h1-h1);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .ireifazer span{
     font-size: 1.4rem;
     text-align: center;
     font-family: var(--font-geral);
-    font-weight: 700;
+    font-weight: 400;
     color: var(--color-h1-h1);
+    padding-bottom: 30px;
 }
-.adress{
-    width: 100%;
-    height: 180px;
-    background-color: rgb(0, 38, 255);
+
+.cardsafazeres {
+    height: 420px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    border: 1px #ffebcd2d solid;
+    border-radius: 5px;
+    padding-top: 70px;
+    flex-direction: column;
+}
+
+.container-cards{
+    display: flex;
+    height: 300px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#planeta{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#planeta i {
+    font-size: 5rem;
+    color: blanchedalmond
+}
+
+#planeta p{
+    font-size: .8rem;
+    font-family: var(--font-geral);
+    color: blanchedalmond;
+}
+
+#planeta span{
+
+}
+
+
+
+#designer{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#designer i{
+    font-size: 5rem;
+    color: blanchedalmond
+}
+#designer p{
+    font-size: .8rem;
+    font-family: var(--font-geral);
+    color: blanchedalmond;
+}
+
+
+#marca{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#marca i{
+    font-size: 5rem;
+    color: blanchedalmond;
+  
+}
+#marca p{
+    font-size: .8rem;
+    font-family: var(--font-geral);
+    color: blanchedalmond;
+}
+
+.botao-mudar{
+    cursor: pointer;
+    color: var(--color-h1-h1);
+    gap: 30px;
+}
+.botao-mudar i {
+   padding: 2px;
+   margin: 10px; 
 }
