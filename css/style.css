@@ -587,9 +587,12 @@ margin-right: 30px;
             z-index: 1;
             width: 251px;
             height: 25px;
-            background-color: rebeccapurple;
-            top: 90%;
-            left:59%;
+            font-family: var(--font-geral);
+            font-size: 0.8rem;
+            font-weight: 500;
+            background-color: #11a59e;
+            border-radius: 5%;
+            border-radius: 10px;
         }
         
 
@@ -613,9 +616,12 @@ margin-right: 30px;
             z-index: 1;
             width: 251px;
             height: 25px;
-            background-color: rebeccapurple;
-            top: 90%;
-            left:59%;
+            background-color: #11a59e;
+            font-family: var(--font-geral);
+            border-radius: 5%;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border-radius: 10px;
         }
 
 
@@ -646,9 +652,12 @@ margin-right: 30px;
             z-index: 1;
             width: 251px;
             height: 25px;
-            background-color: rebeccapurple;
-            top: 90%;
-            left:59%;
+            background-color: #11a59e;
+            font-family: var(--font-geral);
+            border-radius: 5%;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border-radius: 10px;
         }
 
 
@@ -664,17 +673,19 @@ margin-right: 30px;
 
         .full-cam::before{
             content: "CLIQUE AQUI PARA VER PROJETO";
+            border-radius: 10px;
             font-size: .9rem;
             position: absolute;
             display: flex;
             align-items: center;
             justify-content: center;
             z-index: 1;
-            width: 251px;
+            width: 250px;
             height: 25px;
-            background-color: rebeccapurple;
-            top: 90%;
-            left:59%;
+            background-color:#11a59e;
+            font-family: var(--font-geral);
+            font-size: 0.8rem;
+            font-weight: 500;
         }
 
 /*ESTILIZAÇÃO DO FOOTER/ ONDE ME ENCONTARAR E CONTATOS*/
