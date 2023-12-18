@@ -576,24 +576,23 @@ margin-right: 30px;
             height: 100%;
         
         }
-        
-        .loadingpage::before{
-            content: "CLIQUE AQUI PARA VER PROJETO";
-            font-size: .9rem;
+        .loadingpage .internolink{
+            width: 35%;
+            height: 23px;
+            background-color: var(--color-h1-h1);
             position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
-            width: 251px;
-            height: 25px;
-            font-family: var(--font-geral);
-            font-size: 0.8rem;
-            font-weight: 500;
-            background-color: #11a59e;
-            border-radius: 5%;
-            border-radius: 10px;
+            border-radius: 5px;
+
         }
+        .loadingpage .internolink a{
+            text-decoration: none;
+            font-family: var(--font-geral);
+            font-weight: 600;
+            font-size: .7rem;
+            margin-left: 10px;
+            color: black;
+        }
+    
         
 
     .wifigratesatinfo{
@@ -606,24 +605,25 @@ margin-right: 30px;
             height: 100%;
         }
 
-        .wifigratesatinfo::before{
-            content: "CLIQUE AQUI PARA VER PROJETO";
-            font-size: .9rem;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
-            width: 251px;
-            height: 25px;
-            background-color: #11a59e;
-            font-family: var(--font-geral);
-            border-radius: 5%;
-            font-size: 0.8rem;
-            font-weight: 500;
-            border-radius: 10px;
-        }
+    
+    .wifigratesatinfo .internolink{
+        width: 35%;
+        height: 23px;
+        background-color: var(--color-h1-h1);
+        position: absolute;
+        border-radius: 5px;
 
+    }
+    .wifigratesatinfo .internolink a{
+        text-decoration: none;
+        font-family: var(--font-geral);
+        font-weight: 600;
+        font-size: .7rem;
+        margin-left: 10px;
+        color: black;
+    }
+
+        
 
         
 .projetos-coluna2{
@@ -642,23 +642,28 @@ margin-right: 30px;
             width: 100%;
             height: 100%;
         }
-        .tela-login::before{
-            content: "CLIQUE AQUI PARA VER PROJETO";
-            font-size: .9rem;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
-            width: 251px;
-            height: 25px;
-            background-color: #11a59e;
-            font-family: var(--font-geral);
-            border-radius: 5%;
-            font-size: 0.8rem;
-            font-weight: 500;
-            border-radius: 10px;
-        }
+        
+    
+    .tela-login  .internolink{
+        width: 35%;
+        height: 23px;
+        background-color: var(--color-h1-h1);
+        position: absolute;
+        border-radius: 5px;
+
+    }
+    .tela-login  .internolink a{
+        text-decoration: none;
+        font-family: var(--font-geral);
+        font-weight: 600;
+        font-size: .7rem;
+        margin-left: 10px;
+        color: black;
+    }
+
+
+
+
 
 
     .full-cam{
@@ -671,22 +676,24 @@ margin-right: 30px;
             height: 100%;
         }
 
-        .full-cam::before{
-            content: "CLIQUE AQUI PARA VER PROJETO";
-            border-radius: 10px;
-            font-size: .9rem;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
-            width: 250px;
-            height: 25px;
-            background-color:#11a59e;
-            font-family: var(--font-geral);
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
+    
+        .full-cam .internolink{
+        width: 35%;
+        height: 23px;
+        background-color: var(--color-h1-h1);
+        position: absolute;
+        border-radius: 5px;
+
+    }
+    .full-cam .internolink a{
+        text-decoration: none;
+        font-family: var(--font-geral);
+        font-weight: 600;
+        font-size: .7rem;
+        margin-left: 10px;
+        color: black;
+    }
+
 
 /*ESTILIZAÇÃO DO FOOTER/ ONDE ME ENCONTARAR E CONTATOS*/
 
