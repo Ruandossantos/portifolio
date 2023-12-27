@@ -301,16 +301,15 @@ margin-right: 30px;
 /*ESTILIZAÇÃO DE HABILIDADES*/
 
 .inter-habilidades{
-    height: 90vh;
+    height: 70vh;
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    background-color: #000000;
     color: white;
-    margin-top: 60px;
-    background-image: linear-gradient(45deg, #000000d8, #000000d3), url(../img/outras/backgraund/m-clouds.jpg);
+    padding-top: 10%;
+    background-image: linear-gradient(45deg, #3b3b3bd8, #cfbfbfd3), url(../img/outras/backgraund/m-clouds.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -813,4 +812,84 @@ margin-right: 30px;
 .botao-mudar i {
    padding: 2px;
    margin: 10px; 
+}
+
+.final-footer{
+    min-height: 50vh;
+    width: 100%;
+    background-color: #11a59e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.upendereço{
+    min-height: 40vh;
+    width: 80%;
+    background-color: #32382f;
+    display: flex;
+    gap: 20px;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.card1{
+    width: 30%;
+    height: 90%;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 i{
+    font-size: 2.4rem;
+}
+.card1 h1{
+    font-family: var(--font-geral);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.card1 span{
+    font-family: var(--font-geral);
+    font-weight: 700;
+    font-size: .8rem;
+}
+#rua, #cidade, #bairro{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+
+
+
+.card2{
+    width: 30%;
+    height: 90%;
+    background-color: rebeccapurple;
+}
+.card3{
+    width: 30%;
+    height: 90%;
+    background-color: rebeccapurple;
+}
+
+
+
+.downendereço{
+    min-height: 10vh;
+    width: 100%;
+    background-color: #4ccc0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    width:80%;
+    height: 80%;
+    background-color: red;
+
 }
