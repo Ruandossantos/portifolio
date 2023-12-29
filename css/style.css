@@ -231,8 +231,13 @@ header .header-nav-bar ul li:hover::before{
 
 .container-sobremim{
     height: 75vh;
-    width: 95%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: borda 1s infinite ease-in-out;
 }
+
 .container-sobremim, span h1{
     text-align: center;
     color: black;
@@ -255,33 +260,34 @@ header .header-nav-bar ul li:hover::before{
 }
 
 .texto-foto-sobremim{
-    width: 70%;
-    height: 45%;
+    width: 80%;
+    height: 65%;
     margin:  0 auto;
-    margin-top: 10px;
-    padding: 30px;
+    margin-top: 20px;
     display: flex;
 }
 .img-eu{
-width: 100px;
-height: 100px;
-margin-right: 30px;
+width: 200px;
+height: 200px;
+margin-right: 10px;
 }
 
 .img-eu img{    
-    height: 90px;
-    width: 90px;
+    width: 150px;
+    height: 155px;
     border-radius: 50%;
     
 }
 
 .texto-sbremim{
-    height: 70%;
-    width: 70%;
+    height: 100%;
+    width: 650px;
 }
-.texto-foto-sobremim span{
-    font-size:1.3rem;
+
+.texto-foto-sobremim span, p{
     font-family: var(--font-geral);
+    text-align-last:left;
+    font-size:0.9rem;
 }
 
 
@@ -294,7 +300,6 @@ margin-right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 
