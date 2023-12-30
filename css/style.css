@@ -212,7 +212,26 @@ header .header-nav-bar ul li:hover::before{
     cursor: pointer;
     transition: 2s;
 }
+#bot-top{
+    color: #ffffffef;
+    background-color: #11a59e;
+    padding: 10px;
+    box-shadow: #ffffff80 1px 1px 54px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    
+    animation: animas 1s infinite ease-in-out;
+}
 
+@keyframes animas {
+    0%{
+        scroll-timeline: 1s;
+    }
+    100%{
+
+    }
+}
 /*ESTILIZAÇÃO DA MINNHA SEÇÃO SOBRE MIM*/
 
 .sobre-mim{
@@ -929,16 +948,26 @@ margin-right: 10px;
 
 
 .downendereço{
-    min-height: 10vh;
+    min-height: 5vh;
     width: 100%;
-    background-color: #4ccc0d;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blanchedalmond;
 }
 .info{
     width:80%;
-    height: 80%;
-    background-color: red;
-
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.info span{
+    font-size: .8rem;
+    margin-right: 70%;
+}
+.info a {
+    color: #000000;
+    cursor: pointer;
+    padding-right: 16px;
+    font-size: .8rem;
 }
