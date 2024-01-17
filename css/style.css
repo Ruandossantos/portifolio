@@ -65,7 +65,6 @@ header .header-nav-bar{
 }
 header .header-nav-bar ul li:hover{
     cursor: pointer;
-    color: var(--color-h1-h1);
 }
 header .header-nav-bar ul li:hover::before{
     border-bottom: 20px;
@@ -85,14 +84,23 @@ header .header-nav-bar ul li:hover::before{
 
     }
 }
-.header-nav-bar .lista-navegacao {
+.header-nav-bar .lista-navegacao{
     display: flex;
     justify-content: space-around;
     list-style: none;
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
 }
-
+.lista-navegacao ul li ,button{
+    border: none;
+    color: #11a59e;
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+}
 /*ESTILIZAÇÃO DA MINHA APRESENTAÇÃO (AINDA NO HEADER, ABAIXO NO MENU)*/
 
 
