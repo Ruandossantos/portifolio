@@ -558,7 +558,7 @@ margin-right: 10px;
 }
 
 .porcentagem-aprendizados ul .porc-html .html::before{
-    content: "85%";
+    content: "ALTO";
     padding: 4px;
     color: #ffffff;
     height: 20px;
@@ -596,21 +596,21 @@ margin-right: 10px;
 }
 
 .porcentagem-aprendizados ul .porc-css .css::before{
-    content: "70%";
+    content: "MEDIO";
     padding: 4px;
     color: #ffffff;
     height: 20px;
     width: 17px;
     position: absolute;
     top: -35px;
-    left: 70%;
+    left: 57%;
     font-family: var(--font-geral);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 .porcentagem-aprendizados ul .porc-css .css::after{
     height: 5px;
-    width: 70%;
+    width: 57%;
     background-color: var(--color-h1-h1);
     position: absolute;
     top: 0;
@@ -635,21 +635,21 @@ margin-right: 10px;
 }
 
 .porcentagem-aprendizados ul .porc-java .java::before{
-    content: "2%";
+    content: "BASICO";
     padding: 4px;
     color: #ffffff;
     height: 25px;
     width: 21px;
     position: absolute;
-    top: 7px;
-    left: 2%;
+    top: -40px;
+    left: 35%;
     font-family: var(--font-geral);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 .porcentagem-aprendizados ul .porc-java .java::after{
     height: 5px;
-    width: 2%;
+    width: 34%;
     background-color: var(--color-h1-h1);
     position: absolute;
     top: 0;
@@ -671,7 +671,7 @@ margin-right: 10px;
 }
 
 .porcentagem-aprendizados ul .porc-boos .boos::before{
-    content: "12%";
+    content: "BASICO";
     padding: 4px;
     color: #ffffff;
     height: 25px;

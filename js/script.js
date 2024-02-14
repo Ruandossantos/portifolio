@@ -52,3 +52,16 @@ function irParaSessaoContato() {
         sessoes[0].scrollIntoView({ behavior: "smooth" });
     }
 }
+
+
+            // BOTÃO MAIS SOBRE//
+function irParabtnsobre() {
+    // Obtém a referência para a primeira instância da classe de destino
+    var sessoes = document.getElementsByClassName("bote-maissbore");
+
+    // Verifica se há pelo menos uma instância da classe
+    if (sessoes.length > 0) {
+        // Rola a página até a posição da primeira instância da classe
+        sessoes[0].scrollIntoView({ behavior: "smooth" });
+    }
+}
