@@ -1,0 +1,91 @@
+:root {
+    --fonte-Onest: "Onest", serif;
+    --fonte-Tektur: "Tektur", serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-header {
+    background-color: #f3eeee;
+    min-height: 100vh;
+
+}
+
+.menu-navegation {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.card-logo i {
+    color: #107e73;
+    font-size: xx-large;
+}
+
+.card-logo p {
+    color: #107e73;
+    font-family: var(--fonte-Tektur);
+    font-weight: 700;
+}
+
+.list-menu {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    font-family: var(--fonte-Onest);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.list-menu li {
+    padding: 5px 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.list-menu li:hover::after {
+    content: "";
+    background-color: #107e73;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    animation: anima-nav-bar 1 1s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes anima-nav-bar {
+    0% {
+        width: 0%;
+    }
+}
+
+
+
+.btn-cv {
+    background-color: #107e73;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    color: white;
+    font-family: var(--fonte-Onest);
+    font-size: 1.1rem;
+}
