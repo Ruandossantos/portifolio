@@ -58,6 +58,10 @@
     position: relative;
     cursor: pointer;
 }
+.list-menu li:hover{
+    color: #107e73;
+}
+
 
 .list-menu li:hover::after {
     content: "";
@@ -89,3 +93,61 @@
     font-family: var(--fonte-Onest);
     font-size: 1.1rem;
 }
+
+.btn-cv:hover{
+    scale: 1.1;
+    transition: .4s;
+    cursor: pointer;
+    background-color: #f3eeee;
+    color: #107e73;
+    border: 1px solid #107e73;
+}
+
+
+
+/*Estilização do sobre-header (Abaixo do Menu)*/
+
+.header-sobre{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+.header-sobre span{
+    font-size: 2rem;
+    font-family: var(--fonte-Tektur);
+    font-weight: 700;
+}
+
+.header-sobre h1{
+    font-size: 5rem;
+    font-family: var(--fonte-Tektur);
+    font-weight: 900;
+    color: #107e73;
+    margin-bottom:30px;
+}
+
+.header-sobre p{
+    font-size: 1.3rem;
+    font-family: var(--fonte-Onest);
+}
+
+/*Estilização dos boteões redes header*/
+
+.btns-redes-sociais{
+    height: 50px;
+    margin-top: 30px;
+}
+.btns-redes-sociais a{
+   color: #107e73;
+   font-size: 1.3rem;
+   font-family: var(--fonte-Onest);
+   margin-right: 30px;
+   text-decoration: none;
+}
+
+.btns-redes-sociais a:hover::{
+    cursor: point;
+ }
