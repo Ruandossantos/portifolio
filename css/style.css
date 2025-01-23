@@ -12,7 +12,7 @@
 
 .main-header {
     background-color: #f3eeee;
-    min-height: 100vh;
+    min-height: 95vh;
 
 }
 
@@ -111,7 +111,7 @@
     width: 80%;
     height: 400px;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 160px;
 }
 
 
@@ -122,7 +122,7 @@
 }
 
 .header-sobre h1{
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: var(--fonte-Tektur);
     font-weight: 900;
     color: #107e73;
@@ -130,7 +130,7 @@
 }
 
 .header-sobre p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: var(--fonte-Onest);
 }
 
@@ -148,6 +148,40 @@
    text-decoration: none;
 }
 
-.btns-redes-sociais a:hover::{
+.btns-redes-sociais a:hover{
     cursor: point;
+    color: #b1b1b1;
+ }
+
+
+/* ---- INICIO DOS MAIN  ------*/
+
+
+ /*Estilização do artigo Sobre*/
+
+ main article{
+    background-color: #107e73;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: var(--fonte-Onest);
+    font-size: 2rem;
+    font-weight: 700;
+ }
+
+ main article p{
+    padding: 0px 20px;
+ }
+
+ main article .bi-arrow-bar-down{
+    padding: 0px 20px;
+    animation: arrow-seta infinite 1s ease-in-out alternate-reverse;
+ }
+
+ @keyframes arrow-seta {
+    0%{
+        transform: translateY(-5px);
+    }
  }
