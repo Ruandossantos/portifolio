@@ -1,6 +1,9 @@
 :root {
     --fonte-Onest: "Onest", serif;
     --fonte-Tektur: "Tektur", serif;
+    --color-principal: #4E4AD9;
+    --color-secundaria: #000;
+    --color-backgraund: #f8f5f5;
 }
 
 * {
@@ -11,8 +14,8 @@
 
 
 .main-header {
-    background-color: #f3eeee;
-    min-height: 95vh;
+    background-color: var(--color-backgraund);
+    min-height: 100vh;
 
 }
 
@@ -34,12 +37,12 @@
 }
 
 .card-logo i {
-    color: #107e73;
+    color: var(--color-principal);
     font-size: xx-large;
 }
 
 .card-logo p {
-    color: #107e73;
+    color: var(--color-principal);
     font-family: var(--fonte-Tektur);
     font-weight: 700;
 }
@@ -49,7 +52,7 @@
     gap: 100px;
     list-style: none;
     font-family: var(--fonte-Onest);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -57,19 +60,22 @@
     padding: 5px 10px;
     position: relative;
     cursor: pointer;
+    color: var(--color-secundaria);
+    scale: .9;
 }
 .list-menu li:hover{
-    color: #107e73;
+    color: var(--color-principal);
+    scale: 1;
 }
 
 
 .list-menu li:hover::after {
     content: "";
-    background-color: #107e73;
+    background-color: var(--color-principal);
     top: 90%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     position: absolute;
     animation: anima-nav-bar 1 1s ease-in-out;
     cursor: pointer;
@@ -84,7 +90,7 @@
 
 
 .btn-cv {
-    background-color: #107e73;
+    background-color: var(--color-principal);
     border: none;
     width: 180px;
     height: 50px;
@@ -98,9 +104,9 @@
     scale: 1.1;
     transition: .4s;
     cursor: pointer;
-    background-color: #f3eeee;
-    color: #107e73;
-    border: 1px solid #107e73;
+    background-color:var(--color-backgraund);
+    color: var(--color-principal);
+    border: 1px solid var(--color-principal);
 }
 
 
@@ -109,7 +115,7 @@
 
 .header-sobre{
     width: 80%;
-    height: 400px;
+    height: 500px;
     margin: 0 auto;
     margin-top: 160px;
 }
@@ -125,7 +131,7 @@
     font-size: 6rem;
     font-family: var(--fonte-Tektur);
     font-weight: 900;
-    color: #107e73;
+    color: var(--color-principal);
     margin-bottom:30px;
 }
 
@@ -141,7 +147,7 @@
     margin-top: 30px;
 }
 .btns-redes-sociais a{
-   color: #107e73;
+   color: var(--color-principal);
    font-size: 1.3rem;
    font-family: var(--fonte-Onest);
    margin-right: 30px;
@@ -150,38 +156,28 @@
 
 .btns-redes-sociais a:hover{
     cursor: point;
-    color: #b1b1b1;
+    color: #8e8afd;
  }
+
+ /*Estilização do BTN sobre*/
+
+ .btn_sobre__conteiner__butao{
+    width: 350px;
+    height: 45px;
+    background-color: var(--color-principal);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-top: 60px;
+    font-size: 1.2rem;
+    font-family: var(--fonte-Onest);
+    text-transform: uppercase;
+ }
+
+
+
+
 
 
 /* ---- INICIO DOS MAIN  ------*/
 
-
- /*Estilização do artigo Sobre*/
-
- main article{
-    background-color: #107e73;
-    min-height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: var(--fonte-Onest);
-    font-size: 2rem;
-    font-weight: 700;
- }
-
- main article p{
-    padding: 0px 20px;
- }
-
- main article .bi-arrow-bar-down{
-    padding: 0px 20px;
-    animation: arrow-seta infinite 1s ease-in-out alternate-reverse;
- }
-
- @keyframes arrow-seta {
-    0%{
-        transform: translateY(-5px);
-    }
- }
