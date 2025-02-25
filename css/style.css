@@ -2,8 +2,8 @@
     --fonte-Onest: "Onest", serif;
     --fonte-Tektur: "Tektur", serif;
     --color-principal: #F2F2F2;
-    --color-secundaria: #404040;
-    --color-backgraund: #8AB0BF;
+    --color-secundaria: #1c001def;
+    --color-backgraund: #2b728fd0;
 }
 
 * {
@@ -224,3 +224,109 @@
 
 /* ---- INICIO DOS MAIN  ------*/
 
+
+/*Estilizaçao do meu footer*/
+
+.footer__container{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--color-principal);
+}
+
+.footer_container___contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+.footer_container___contato span{
+    color: #420444ef;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: var(--fonte-Tektur);
+    position: relative;
+}
+
+.conteiner_dadosfooter{
+    width: 80%;
+    margin: 0 auto;
+    height: 60%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.conteiner_dadosfooter__redessociais{
+    width:40%;
+    height: 100%;
+}
+
+.lista__redes{
+    display: flex;
+    gap: 40px;
+}
+
+.lista__redes li{
+    list-style: none;
+}
+
+.lista__redes li a i{
+    font-size: 1.4rem;
+    
+    color: var(--color-backgraund);
+}
+.profissoes__ruan{
+    width:60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profissoes__ruan h1{
+    font-size: 1.4rem;
+    font-family: var(--fonte-Onest);
+    font-weight: 600;
+}
+
+.profissoes__ruan span{
+    font-size: 1.1rem;
+    font-family: var(--fonte-Onest);
+    padding-top: 5px;
+}
+
+article{
+    width: 100%;
+    height: 80%;
+}
+.texto__redessociais{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto__redessociais span p{
+    font-size: .8rem;
+    font-family: var(--fonte-Onest);
+    font-weight: 600;
+    color: var(--color-backgraund);
+}
+
+.texto__redessociais span{
+    font-family: var(--fonte-Onest);
+    font-size: .8rem;
+}
+
+.texto__redessociais span:nth-child(1){
+    padding-top: 20px;
+}
+
+.conteiner_creditos__footer{
+    width: 100%;
+    height:10px;
+    display: flex;
+}
+.footer__creditos{
+    font-size: .6em;
+    text-align: center;
+    width: 100%;
+    color: #c2c2c2;
+}

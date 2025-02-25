@@ -1,0 +1,80 @@
+@media screen and (max-width:480px){
+    .card-logo {
+        display: none;
+    }
+    .header-sobre .img__devheader{
+        display: none;
+    }
+    .header-sobre{
+        width: 90%;
+    }
+
+    .header-sobre span{
+        font-size: 1.2rem;
+    }
+    .header-sobre h1{
+        font-size: 5rem;
+        line-height: 60px;
+    }
+    .header-sobre p{
+        font-size: .9rem;
+        font-family: var(--fonte-Onest);
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .btns-redes-sociais {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+     }
+    .btns-redes-sociais i{
+       width: 100%;
+       font-size: 1.3rem;
+    }
+    /*Estilizaçao do meu footer*/
+    .footer__container{
+        width: 100%;
+        background-color: var(--color-principal);
+    }
+    .footer_container___contato{
+        height: 10%;
+    }
+    .footer_container___contato span{
+        font-size: 1.3rem;
+    }
+    .conteiner_dadosfooter{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+    }
+    .conteiner_dadosfooter__redessociais{
+        width: 90%;
+        margin: 0 auto;
+        height: 200px;
+    }
+    .lista__redes{
+        display: flex;
+        justify-content: space-around;
+        padding:5px;
+    }
+    .texto__redessociais span{
+        padding-top: 15px;
+    }
+    .profissoes__ruan{
+        width:90%;
+        height: 50%;
+        margin: 0 auto;
+    }
+    .profissoes__ruan h1{
+        font-size: 1.1rem;
+        font-family: var(--fonte-Onest);
+        font-weight: 600;
+    }
+    
+    .profissoes__ruan span{
+        font-size: .8rem;
+        font-family: var(--fonte-Onest);
+        padding-top: 5px;
+    }
+}
